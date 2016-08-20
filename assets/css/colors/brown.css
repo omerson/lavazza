@@ -2625,7 +2625,7 @@ ul.bullets li a:hover {
   top: 0;
   left: 0;
   text-align: center;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 .modal-window .modal-wrapper {
   display: inline-block;

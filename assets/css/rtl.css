@@ -5,7 +5,7 @@ a {
   color: #474747;
 }
 a:hover {
-  color: #ff513f;
+  color: #0a2d4b;
   outline: none !important;
   text-decoration: none;
 }
@@ -15,17 +15,17 @@ a:focus, a:active {
   text-decoration: none;
 }
 a.icon i {
-  color: #ff513f;
+  color: #0a2d4b;
 }
 a.link {
-  color: #ff513f;
+  color: #0a2d4b;
 }
 
 address .info {
   line-height: 25px;
 }
 address .info a {
-  color: #ff513f;
+  color: #0a2d4b;
 }
 address .info i {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
@@ -85,7 +85,7 @@ blockquote .description p {
   font-style: italic;
 }
 blockquote .description footer {
-  color: #ff513f;
+  color: #0a2d4b;
   font-weight: bold;
 }
 
@@ -145,7 +145,7 @@ header .nav-pills li.active a {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
   background-color: transparent;
-  border-bottom: 2px solid #ff513f;
+  border-bottom: 2px solid #0a2d4b;
   color: #474747;
 }
 header .nav-pills li.active a:hover {
@@ -235,7 +235,7 @@ ul.bullets li:before {
   font-variant: normal;
   line-height: 1;
   text-transform: none;
-  color: #ff513f;
+  color: #0a2d4b;
   content: "\f111";
   font-size: 5px;
   left: -12px;
@@ -248,7 +248,7 @@ ul.bullets li a {
   display: block;
 }
 ul.bullets li a:hover {
-  color: #ff513f;
+  color: #0a2d4b;
 }
 
 dl dt {
@@ -280,7 +280,7 @@ ul.bullets li:before {
   font-variant: normal;
   line-height: 1;
   text-transform: none;
-  color: #ff513f;
+  color: #0a2d4b;
   content: "\f111";
   font-size: 5px;
   left: 12px;
