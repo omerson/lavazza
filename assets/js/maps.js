@@ -19,14 +19,20 @@ if( $body.hasClass('map-fullscreen') ) {
 // Homepage map - Google
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-function createHomepageGoogleMap(_latitude,_longitude,json){
+function createHomepageGoogleMap(_latitude,_longitude, json, zoomIn){
     $.get("assets/external/_infobox.js", function() {
         gMap();
     });
+
+    var zoom = 14;
+    if(typeof zoomIn !== "undefined"){
+        var zoom = zoomIn;
+    }
+
     function gMap(){
         var mapCenter = new google.maps.LatLng(_latitude,_longitude);
         var mapOptions = {
-            zoom: 14,
+            zoom: zoom,
             center: mapCenter,
             disableDefaultUI: false,
             scrollwheel: false,
@@ -274,6 +280,17 @@ function createHomepageGoogleMap(_latitude,_longitude,json){
                 navigator.geolocation.getCurrentPosition(success);
             } else {
                 console.log('Geo Location is not supported');
+            }
+        });
+
+        $('.search').on('click', function(){
+            var keyword = $('#keyword').val();
+            for (var i = 0; i < json.data.length; i++) {
+                if(json.data[i].color.indexOf(keyword) !== -1){
+                    $('#keyword').val("");
+                    createHomepageGoogleMap(json.data[i].latitude, json.data[i].longitude, json, 18);
+                    return;
+                }
             }
         });
 
