@@ -8,14 +8,15 @@
             "latitude": 44.818985,
             "longitude": 20.449310,
             "url": "item-detail.html",
-            "type": "Apartment",
+            "type": "Restaurant",
             "type_icon": "assets/icons/restaurants-bars/bars/coffee.png",
             "rating": 4,
             "gallery":
                 [
                     "assets/img/items/toro/toro1.jpg",
                     "assets/img/items/toro/toro2.jpg",
-                    "assets/img/items/toro/toro3.jpg"
+                    "assets/img/items/toro/toro3.jpg",
+                    "assets/img/items/toro/toro4.jpg"
                 ],
             "features":
                 [
@@ -28,7 +29,6 @@
                     "Places to seat"
                 ],
             "date_created": "2014-11-03",
-            "price": "$2500",
             "featured": 0,
             "color": "toro, amerika, juzna, hrana, chilli, river, view, sunset, water",
             "person_id": 1,
@@ -56,12 +56,14 @@
             "type": "Restaurant",
             "type_icon": "assets/icons/restaurants-bars/bars/coffee.png",
             "rating": 5,
-            "price": "$120",
             "gallery":
                 [
-                    "assets/img/items/2.jpg"
+                    "assets/img/items/ceger/ceger1.jpg",
+                    "assets/img/items/ceger/ceger2.jpg",
+                    "assets/img/items/ceger/ceger3.jpg",
+                    "assets/img/items/ceger/ceger4.jpg"
                 ],
-            "color": "edis, omerovic",
+            "color": "edis, omerovic, ceger, skerliceva",
             "item_specific":
                 {
                     "menu": "$6.50",
@@ -75,7 +77,7 @@
         },
         {
             "id": 3,
-            "title": "Eddie’s Fast Food",
+            "title": "BOUTIQUE - cafe & restaurant",
             "category": "real_estate",
             "location": "1882 Trainer Avenue",
             "latitude": 44.816392,
@@ -86,9 +88,12 @@
             "rating": 2,
             "gallery":
                 [
-                    "assets/img/items/3.jpg"
+                    "assets/img/items/boutique/boutique1.jpg",
+                    "assets/img/items/boutique/boutique2.jpg",
+                    "assets/img/items/boutique/boutique3.jpg",
+                    "assets/img/items/boutique/boutique4.jpg"
                 ],
-            "color": "haris, residovic"
+            "color": "haris, residovic, Restaurant, Boutique"
         }
     ]
 }

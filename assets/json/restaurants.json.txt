@@ -3,8 +3,8 @@
         {
             "id": 1,
             "category": "bar_restaurant",
-            "title": "Steak House Restaurant",
-            "location": "63 Birch Street",
+            "title": "Toro Latin GastroBar",
+            "location": "Karađorđeva 2-4, 59714 Belgrade, Serbia",
             "latitude": 51.541599,
             "longitude": -0.112588,
             "url": "restaurant-item-detail.html",
@@ -176,7 +176,7 @@
         {
             "id": 5,
             "category": "bar_restaurant",
-            "title": "Max Five Lounge",
+            "title": "Toro Latin GastroBar",
             "location": "1882 Trainer Avenue",
             "latitude": 51.522340,
             "longitude": -0.037894,

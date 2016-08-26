@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<div class="modal-window fade_in">
+    <div class="modal-wrapper"><h2>BOUTIQUE - cafe & restaurant</h2>
+        <figure>Trg republike 3, 59714 Belgrade, Serbia</figure>
+        <div class="rating" data-rating="4"></div>
+        <div class="modal-body">
+            <div class="gallery">
+                <div class="image">
+                    <!-- <div class="price">$2500</div> -->
+                    <div class="type"><i><img src="assets/icons/restaurants-bars/bars/coffee.png" alt=""></i><span>Restaurant</span></div>
+                    <div class="owl-carousel gallery">
+                        <img src="assets/img/items/boutique/boutique1.jpg">
+                        <img src="assets/img/items/boutique/boutique2.jpg">
+                        <img src="assets/img/items/boutique/boutique3.jpg">
+                        <img src="assets/img/items/boutique/boutique4.jpg">
+                    </div>
+                </div>
+                <div class="features"><h3>Features</h3>
+                    <ul class="bullets">
+                        <li>Free Parking</li>
+                        <li>Cards Accepted</li>
+                        <li>Wi-Fi</li>
+                        <li>Air Condition</li>
+                        <li>Reservations</li>
+                        <li>Teambuildings</li>
+                        <li>Places to seat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-content">
+                <section><h3>Description</h3>
+                    <p>
+                       BOUTIQUE Concept is about surrounding you with the things you expect from an ultimate host. In each of our restaurants you’ll find yourself in a relaxing environment that remains energetic and exciting — a place you’ll want to bring friends, where you’ll feel welcome. We’ll tend to your needs while you enjoy the company of friends. Each of our establishments will immerse you in a feeling of comfort and belonging.  <br/>
+                                                    <br/>
+
+The tantalizing pulse and urban feel attract people, but beyond countenance lies the heart of BOUTIQUE’s mission. The menus show a commitment to culinary excellence created by chefs whose passions for flavor are comparable to the greatest names in food. Efficient service, a soothing vibe, and outstanding cuisine are to be expected at each of the restaurants presented by BOUTIQUE Concepts
+                    </p>
+                </section>
+               
+                <section><h3>Last Review</h3>
+                    <div class="rating" data-rating="5"></div>
+                    <p>One of my top 3 places to dine in Belgrade! Amazing food, great service and a stunning view. I can highly recommand it - worth the visit, time and money :-)</p>
+                </section>
+                <a href="item-detailll.html" class="btn btn-default btn-large">Show Detail</a></div>
+        </div>
+        <div class="modal-close"><img src="assets/img/close.png"></div>
+    </div>
+    <div class="modal-background fade_in"></div>
+</div>
+
+<script>
+    // Render Owl carousel gallery
+
+    var _rtl = false;
+    drawOwlCarousel(_rtl);
+
+    // Render Rating stars
+
+    rating('.modal-window');
+
+    // Remove modal element form DOM
+
+    $('.modal-window .modal-background, .modal-close').live('click',  function(e){
+        $('.modal-window').addClass('fade_out');
+        setTimeout(function() {
+            $('.modal-window').remove();
+        }, 300);
+    });
+</script>
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="assets/js/ie-scripts.js"></script>
+<![endif]-->
+</body>
+</html>

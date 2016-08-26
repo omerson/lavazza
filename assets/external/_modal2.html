@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<div class="modal-window fade_in">
+    <div class="modal-wrapper"><h2>Ceger</h2>
+        <figure>Skerlićeva 1, 59714 Belgrade, Serbia</figure>
+        <div class="rating" data-rating="4"></div>
+        <div class="modal-body">
+            <div class="gallery">
+                <div class="image">
+                    <!-- <div class="price">$2500</div> -->
+                    <div class="type"><i><img src="assets/icons/restaurants-bars/bars/coffee.png" alt=""></i><span>Restaurant</span></div>
+                    <div class="owl-carousel gallery">
+                        <img height="300" src="assets/img/items/ceger/ceger1.jpg">
+                        <img height="300" src="assets/img/items/ceger/ceger2.jpg">
+                        <img height="300" src="assets/img/items/ceger/ceger3.jpg">
+                        <img height="300" src="assets/img/items/ceger/ceger4.jpg">
+                    </div>
+                </div>
+                <div class="features"><h3>Features</h3>
+                    <ul class="bullets">
+                        <li>Free Parking</li>
+                        <li>Cards Accepted</li>
+                        <li>Wi-Fi</li>
+                        <li>Air Condition</li>
+                        <li>Reservations</li>
+                        <li>Teambuildings</li>
+                        <li>Places to seat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-content">
+                <section><h3>Description</h3>
+                    <p>
+                                                                          We have existed for quite a long time. Few people know that the phrase 'eyefull' was coined in the cafe of the same name in Ruzveltova street.      <br/>
+                                                    <br/>
+This is where we started and then we opened the old Ceger in the beginning of Save Kovacevica street. 
+Because we love heroes. Now we are in Skerliceva, next to the temple and the library, still in great company.
+     <br/>
+                                                    <br/>
+In the "Oko" (eye) which is always full, also in the old Ceger as well as in the new one, since the day we opened until today. People know what's good.
+     <br/>
+                                                    <br/>
+We've changed locations, but not our crew.
+     <br/>
+                                                    <br/>
+Only two people come to us: guests and friends. Well, new guests and old friends - welcome!
+     <br/>
+                                                    <br/>
+We’ve concluded that café Ceger is a place for smart people, who are smarter than their smartphones. 
+They keep those in their pockets because having smart conversation with their smart friends at the same table is more important.
+     <br/>
+                                                    <br/>
+We work to make sure that there’s always a great crowd in café Ceger, to make sure that the food is even better and that the drinks are best of all!
+     <br/>
+                                                    <br/>
+We would like to become your second home forever – but in the first place in your heart!
+     <br/>
+                                                    <br/>
+
+Enough about us, let’s hear about you: So, how are you today?
+                                                    <br/>
+                                                    <br/>
+                    </p>
+                </section>
+                
+                <section><h3>Last Review</h3>
+                    <div class="rating" data-rating="5"></div>
+                    <p>One of my top 3 places to dine in Belgrade! Amazing food, great service and a stunning view. I can highly recommand it - worth the visit, time and money :-)</p>
+                </section>
+                <a href="item-detaill.html" class="btn btn-default btn-large">Show Detail</a></div>
+        </div>
+        <div class="modal-close"><img src="assets/img/close.png"></div>
+    </div>
+    <div class="modal-background fade_in"></div>
+</div>
+
+<script>
+    // Render Owl carousel gallery
+
+    var _rtl = false;
+    drawOwlCarousel(_rtl);
+
+    // Render Rating stars
+
+    rating('.modal-window');
+
+    // Remove modal element form DOM
+
+    $('.modal-window .modal-background, .modal-close').live('click',  function(e){
+        $('.modal-window').addClass('fade_out');
+        setTimeout(function() {
+            $('.modal-window').remove();
+        }, 300);
+    });
+</script>
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="assets/js/ie-scripts.js"></script>
+<![endif]-->
+</body>
+</html>
