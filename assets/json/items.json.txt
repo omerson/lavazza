@@ -36,11 +36,7 @@
             "special_offer": 0,
             "item_specific":
                 {
-                    "bedrooms": 2,
-                    "bathrooms": 2,
-                    "rooms": 4,
-                    "garages": 1,
-                    "area": 240
+                    "garages": 1
                 },
             "description": "TORO Latin GastroBar is a creative blend of Pan Latin styles and flavors. Chef-owner Richard Sandoval, whose accolades include Bon Appétit Restaurateur of the Year and Mexico's Toque d'Oro, artfully spins South and Central American ingredients into small plates designed for sharing. The beverage menu features innovative cocktails, a collection of Latin wines and a variety of spirits created for sipping and enjoying. The vibrant décor fuses traditional and contemporary tastes, the perfect setting to savor Chef Richard Sandoval's acclaimed cuisine.",
             "last_review_rating": 5
@@ -63,17 +59,8 @@
                     "assets/img/items/ceger/ceger3.jpg",
                     "assets/img/items/ceger/ceger4.jpg"
                 ],
-            "color": "edis, omerovic, ceger, skerliceva",
-            "item_specific":
-                {
-                    "menu": "$6.50",
-                    "offer1": "Chicken wings",
-                    "offer1_price": "4.50",
-                    "offer2": "Mushroom ragout",
-                    "offer2_price": "3.60",
-                    "offer3": "Nice salad with tuna, beans and hard-boiled egg",
-                    "offer3_price": "1.20"
-                }
+            "color": "edis, omerovic, ceger, skerliceva"
+                
         },
         {
             "id": 3,
