@@ -30,7 +30,7 @@ function drawInfobox(category, infoboxContent, json, i){
                     '<div class="wrapper">' +
                         '<a href="#" class="quick-view" data-toggle="modal" data-target="#modal" id="' + id + '">Quick View</a>' +
                         '<hr>' +
-                        '<a href="http://www.google.com/maps/place/'+ latitude +','+ longitude +'" class="detail">Go to Map</a>' +
+                        '<a href="http://www.google.com/maps/place/'+ latitude +','+ longitude +'" class="detail" target="_blank">Go to Map</a>' +
                     '</div>' +
                 '</div>' +
                 '<a href="' + url +  '" class="description">' +

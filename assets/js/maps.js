@@ -285,12 +285,16 @@ function createHomepageGoogleMap(_latitude,_longitude, json, zoomIn){
 
         $('.search').on('click', function(){
             var keyword = $('#keyword').val();
-            for (var i = 0; i < json.data.length; i++) {
-                if(json.data[i].color.indexOf(keyword) !== -1){
-                    $('#keyword').val("");
-                    createHomepageGoogleMap(json.data[i].latitude, json.data[i].longitude, json, 18);
-                    return;
+            if (keyword !== '') {
+                for (var i = 0; i < json.data.length; i++) {
+                    if(json.data[i].color.indexOf(keyword) !== -1){
+                        $('#keyword').val("");
+                        createHomepageGoogleMap(json.data[i].latitude, json.data[i].longitude, json, 18);
+                        return;
+                    } 
                 }
+            } else {
+                $('.brand a').click();
             }
         });
 
