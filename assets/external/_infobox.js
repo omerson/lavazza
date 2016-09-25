@@ -17,6 +17,9 @@ function drawInfobox(category, infoboxContent, json, i){
     if(json.data[i].gallery[0])     { var gallery = json.data[i].gallery[0] }
         else                        { gallery[0] = '../img/default-item.jpg' }
 
+    var latitude = json.data[i].latitude;
+    var longitude = json.data[i].longitude;
+
     var ibContent = '';
     ibContent =
     '<div class="infobox ' + color + '">' +
@@ -27,7 +30,7 @@ function drawInfobox(category, infoboxContent, json, i){
                     '<div class="wrapper">' +
                         '<a href="#" class="quick-view" data-toggle="modal" data-target="#modal" id="' + id + '">Quick View</a>' +
                         '<hr>' +
-                        '<a href="' + url +  '" class="detail">Go to Detail</a>' +
+                        '<a href="http://www.google.com/maps/place/'+ latitude +','+ longitude +'" class="detail">Go to Map</a>' +
                     '</div>' +
                 '</div>' +
                 '<a href="' + url +  '" class="description">' +
