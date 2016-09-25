@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<div class="modal-window fade_in">
+    <div class="modal-wrapper"><h2>Splav Korzo</h2>
+        <figure>Savski Nasip BB, 59714 Belgrade, Serbia</figure>
+        <div class="rating" data-rating="4"></div>
+        <div class="modal-body">
+            <div class="gallery">
+                <div class="image">
+                    <!-- <div class="price">$2500</div> -->
+                    <div class="type"><i><img src="assets/icons/restaurants-bars/bars/coffee.png" alt=""></i><span>Restaurant</span></div>
+                    <div class="owl-carousel gallery">
+                        <img src="assets/img/items/korzo/korzo1.jpg">
+                        <img src="assets/img/items/korzo/korzo2.jpg">
+                        <img src="assets/img/items/korzo/korzo3.jpg">
+                    </div>
+                </div>
+                <div class="features"><h3>Features</h3>
+                    <ul class="bullets">
+                        <li>Free Parking</li>
+                        <li>Cards Accepted</li>
+                        <li>Wi-Fi</li>
+                        <li>Air Condition</li>
+                        <li>Reservations</li>
+                        <li>Teambuildings</li>
+                        <li>Places to seat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-content">
+                <section><h3>Description</h3>
+                    <p>
+                      Već pune 3 godine smo uspeli da našu viziju sprovedemo uspešno u dela, učinili smo da uskladimo sve elemente uspešnog ugostiteljskog poslovanja; ( ambijent, dizajn, uslugu, profesionalnost, kvalitet...) i mnoge druge faktore, koje nas čine jedinstvenim ne samo na Savi i u Beogradu, već i šire. KORZO predstavlja jednu harmoničnu celinu u kojoj svaki element igra ključnu ulogu. Sve je povezano i sve mora da ide jedno sa drugim; usluga, servis, kvalitet, ambijent, tačnost, posvećenost...
+                       <br/>
+                       <br/>"NEBO JE GRANICA" i zato KORZO ide korak više sa trendovima savremenog ugostiteljstva i gastronomije. Zajedno sa vama pratimo, učimo i primenjujemo stečeno znanje kako bi naš servis bio besprekoran za sve naše goste. Zato vas sa ponosom pozivamo da dođete i budete deo naše posebne priče, gde epilog uvek ima vašu završnu reč. Gde se čula stapaju sa ukusima, stvaraju nova poznanstva, ljubavi, prijateljstva, tu gde se reka spaja sa oblacima i čini prizor vredan prepričavanja...
+
+                    </p>
+                </section>
+                
+                <section><h3>Last Review</h3>
+                    <div class="rating" data-rating="5"></div>
+                    <p>Nights are the most beautiful during summer,. And when you share them with loved ones, along with food and drinks, the pleasure is doubled. This time I decided to enjoy with all of my senses, and for this reason I made a reservation at floating raft Corso.. (the rest of text you can read at the lynk on our photo)</p>
+                </section>
+                <a href="item-detail.html" class="btn btn-default btn-large">Show Detail</a></div>
+        </div>
+        <div class="modal-close"><img src="assets/img/close.png"></div>
+    </div>
+    <div class="modal-background fade_in" style="position:absolute; opacity:1"></div>
+</div>
+
+<script>
+    // Render Owl carousel gallery
+
+    var _rtl = false;
+    drawOwlCarousel(_rtl);
+
+    // Render Rating stars
+
+    rating('.modal-window');
+
+    // Remove modal element form DOM
+
+    $('.modal-window .modal-background, .modal-close').live('click',  function(e){
+        $('.modal-window').addClass('fade_out');
+        setTimeout(function() {
+            $('.modal-window').remove();
+        }, 300);
+    });
+</script>
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="assets/js/ie-scripts.js"></script>
+<![endif]-->
+</body>
+</html>

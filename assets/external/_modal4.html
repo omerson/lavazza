@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<div class="modal-window fade_in">
+    <div class="modal-wrapper"><h2>Aleksandar ski staza</h2>
+        <figure>Kneza Višeslava 17a, 59714 Belgrade, Serbia</figure>
+        <div class="rating" data-rating="4"></div>
+        <div class="modal-body">
+            <div class="gallery">
+                <div class="image">
+                    <!-- <div class="price">$2500</div> -->
+                    <div class="type"><i><img src="assets/icons/restaurants-bars/bars/coffee.png" alt=""></i><span>Restaurant</span></div>
+                    <div class="owl-carousel gallery">
+                        <img src="assets/img/items/alexandar/alexandar1.jpg">
+                        <img src="assets/img/items/alexandar/alexandar2.jpg">
+                        <img src="assets/img/items/alexandar/alexandar3.jpg">
+                    </div>
+                </div>
+                <div class="features"><h3>Features</h3>
+                    <ul class="bullets">
+                        <li>Free Parking</li>
+                        <li>Cards Accepted</li>
+                        <li>Wi-Fi</li>
+                        <li>Air Condition</li>
+                        <li>Reservations</li>
+                        <li>Teambuildings</li>
+                        <li>Places to seat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-content">
+                <section><h3>Description</h3>
+                    <p>
+                       Smile and Ride organizes sightseeing tours on scooters with the aim to visit the most important and interesting sights of our city, but in a completely different way. The tours are guided by licensed guides that are transmitting information to tourists through a communicator. The tourists are visiting a large number of significant locations, sights, historical and cultural monuments, and everything that makes our city interesting. The tour begins at 13:00 in front of the Saint Sava Temple and lasts 4 to 4 and a half hours. We also organize private tours, entirely adjusted to the client's needs. The tours can be GPS navigated, meaning that our clients get a GPS device with pre-entered tours or, they can organize their city sightseeing in their own rhythm by simply using the GPS. Finally, we offer the possibility of individual scooter rental, with the possibility of delivery at an agreed place.
+                    </p>
+                </section>
+                
+                <section><h3>Last Review</h3>
+                    <div class="rating" data-rating="5"></div>
+                    <p>I booked a rent for 3 scooters by just sending a e-mail for smile and ride, with no prepayment request, and asked them to send the scooters to our hotel. Scooters were delivered on time. I advice all people going to belgrade to book scooters from this company, it will make the transportation easier for you, and you'll get from smile and ride all the needed support.
+
+Visited September 2016</p>
+                </section>
+                <a href="item-detail.html" class="btn btn-default btn-large">Show Detail</a></div>
+        </div>
+        <div class="modal-close"><img src="assets/img/close.png"></div>
+    </div>
+    <div class="modal-background fade_in" style="position:absolute; opacity:1"></div>
+</div>
+
+<script>
+    // Render Owl carousel gallery
+
+    var _rtl = false;
+    drawOwlCarousel(_rtl);
+
+    // Render Rating stars
+
+    rating('.modal-window');
+
+    // Remove modal element form DOM
+
+    $('.modal-window .modal-background, .modal-close').live('click',  function(e){
+        $('.modal-window').addClass('fade_out');
+        setTimeout(function() {
+            $('.modal-window').remove();
+        }, 300);
+    });
+</script>
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="assets/js/ie-scripts.js"></script>
+<![endif]-->
+</body>
+</html>

@@ -59,14 +59,13 @@
                     "assets/img/items/ceger/ceger3.jpg",
                     "assets/img/items/ceger/ceger4.jpg"
                 ],
-            "color": "edis, omerovic, ceger, skerliceva"
-                
+            "color": "hram, vracar, basta, homemade, temple"
         },
         {
             "id": 3,
             "title": "BOUTIQUE - cafe & restaurant",
             "category": "real_estate",
-            "location": "1882 Trainer Avenue",
+            "location": "Trg republike 3",
             "latitude": 44.816392,
             "longitude": 20.459772,
             "url": "item-detail.html",
@@ -80,7 +79,64 @@
                     "assets/img/items/boutique/boutique3.jpg",
                     "assets/img/items/boutique/boutique4.jpg"
                 ],
-            "color": "haris, residovic, Restaurant, Boutique"
+            "color": "oldtown, narodnopozoriste, trg, pedestrianzone, basta, centar"
+        },
+        {
+            "id": 4,
+            "title": "Aleksandar ski staza",
+            "category": "real_estate",
+            "location": "Kneza Višeslava 17a",
+            "latitude": 44.778467,
+            "longitude": 20.427468,
+            "url": "item-detail.html",
+            "type": "Restaurant",
+            "type_icon": "assets/icons/restaurants-bars/bars/coffee.png",
+            "rating": 2,
+            "gallery":
+                [
+                    "assets/img/items/alexandar/alexandar1.jpg",
+                    "assets/img/items/alexandar/alexandar2.jpg",
+                    "assets/img/items/alexandar/alexandar3.jpg"
+                ],
+            "color": "panoramaview, kosutnjak, priroda, zelenilo"
+        },
+        {
+            "id": 5,
+            "title": "Splav Korzo",
+            "category": "real_estate",
+            "location": "Savski Nasip BB",
+            "latitude": 44.796130,
+            "longitude": 20.399338,
+            "url": "item-detail.html",
+            "type": "Restaurant",
+            "type_icon": "assets/icons/restaurants-bars/bars/coffee.png",
+            "rating": 2,
+            "gallery":
+                [
+                    "assets/img/items/korzo/korzo1.jpg",
+                    "assets/img/items/korzo/korzo2.jpg",
+                    "assets/img/items/korzo/korzo3.jpg"
+                ],
+            "color": "riverview, river, basta, splav, novibeograd"
+        },
+        {
+            "id": 6,
+            "title": "Gelateria",
+            "category": "real_estate",
+            "location": "Prizrenska 7",
+            "latitude": 44.813784,
+            "longitude": 20.462174,
+            "url": "item-detail.html",
+            "type": "Restaurant",
+            "type_icon": "assets/icons/restaurants-bars/bars/coffee.png",
+            "rating": 2,
+            "gallery":
+                [
+                    "assets/img/items/galateria/galateria1.jpg",
+                    "assets/img/items/galateria/galateria2.jpg",
+                    "assets/img/items/galateria/galateria3.jpg"
+                ],
+            "color": "kolaci, cakeshop, centar, terazije, sladoled, icecream, basta"
         }
     ]
 }

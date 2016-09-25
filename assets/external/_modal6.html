@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<div class="modal-window fade_in">
+    <div class="modal-wrapper"><h2>Galateria</h2>
+        <figure>Prizrenska 7, 59714 Belgrade, Serbia</figure>
+        <div class="rating" data-rating="4"></div>
+        <div class="modal-body">
+            <div class="gallery">
+                <div class="image">
+                    <!-- <div class="price">$2500</div> -->
+                    <div class="type"><i><img src="assets/icons/restaurants-bars/bars/coffee.png" alt=""></i><span>Restaurant</span></div>
+                    <div class="owl-carousel gallery">
+                        <img src="assets/img/items/galateria/galateria1.jpg">
+                        <img src="assets/img/items/galateria/galateria2.jpg">
+                        <img src="assets/img/items/galateria/galateria3.jpg">
+                    </div>
+                </div>
+                <div class="features"><h3>Features</h3>
+                    <ul class="bullets">
+                        <li>Free Parking</li>
+                        <li>Cards Accepted</li>
+                        <li>Wi-Fi</li>
+                        <li>Air Condition</li>
+                        <li>Reservations</li>
+                        <li>Teambuildings</li>
+                        <li>Places to seat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-content">
+                <section><h3>Description</h3>
+                    <p>
+                        Our staff consists of young ones who integrated well with the experienced ones for the best results.
+As a host we try to produce new ideas for the customers who are specialized in testing the deliciousness of our products.
+ <br/>
+                       <br/>
+Our genial staff always help you find the best from our various type of dessert options to make you at the most content feeling. We can bring you these tasty and beautifully - looked desserts to you whenever you want and wherever you are.
+ <br/>
+                       <br/>
+Just ordering on time is required. We make all types of cakes and pastries to make you have a nice time for your gala feasts, birthday parties, cocktails, various parties, and etc.
+ <br/>
+                       <br/>
+Besides that, we also offer non-alcoholic drinks to our precious customers.
+                   <br/>
+                       <br/>
+                    </p>
+                </section>
+                
+                <section><h3>Last Review</h3>
+                    <div class="rating" data-rating="5"></div>
+                    <p>One of my top 3 places to dine in Belgrade! Amazing food, great service and a stunning view. I can highly recommand it - worth the visit, time and money :-)</p>
+                </section>
+                <a href="item-detail.html" class="btn btn-default btn-large">Show Detail</a></div>
+        </div>
+        <div class="modal-close"><img src="assets/img/close.png"></div>
+    </div>
+    <div class="modal-background fade_in" style="position:absolute; opacity:1"></div>
+</div>
+
+<script>
+    // Render Owl carousel gallery
+
+    var _rtl = false;
+    drawOwlCarousel(_rtl);
+
+    // Render Rating stars
+
+    rating('.modal-window');
+
+    // Remove modal element form DOM
+
+    $('.modal-window .modal-background, .modal-close').live('click',  function(e){
+        $('.modal-window').addClass('fade_out');
+        setTimeout(function() {
+            $('.modal-window').remove();
+        }, 300);
+    });
+</script>
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="assets/js/ie-scripts.js"></script>
+<![endif]-->
+</body>
+</html>
